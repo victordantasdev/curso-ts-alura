@@ -5,7 +5,6 @@ export class Negociacao {
         this.valor = valor;
     }
     get data() {
-        // programação defensiva
         const data = new Date(this._data.getTime());
         return data;
     }
